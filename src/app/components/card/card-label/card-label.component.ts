@@ -15,5 +15,4 @@ export class CardLabelComponent implements OnInit {
   ngOnInit(): void {
     
   }
-
 }

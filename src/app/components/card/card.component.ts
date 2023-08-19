@@ -9,16 +9,15 @@ export class CardComponent implements OnInit {
   @Input()
   gameCover:string = ""
   @Input()
-  gameLabel:String="Exclusivo"
+  gameLabel:String=""
   @Input()
-  gameTipo:string = "Digital PS5"
+  gameTipo:string = ""
   @Input()
-  gamePreco:string = "R$ 348,98"
+  gamePreco:string = ""
 
   constructor() { }
 
   ngOnInit(): void {
     
   }
-
 }
